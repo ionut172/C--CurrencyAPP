@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Convertor.MainPage">
+
+    <StackLayout Spacing="20" Padding="30" VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="Convertor Valutar" FontSize="40" HorizontalOptions="Center" />
+
+       
+
+        <Label Text="Alege moneda:" FontSize="25" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <Picker x:Name="FromCurrencyPicker" FontSize="20">
+         </Picker>
+         <Label Text="Suma ta:" FontSize="25" VerticalOptions="Center" HorizontalOptions="Center" />
+        <Entry x:Name="AmountEntry" Keyboard="Numeric" Placeholder="Introdu suma" FontSize="20" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="400"/>
+
+          <Button Text="Convert" Clicked="OnConvertClicked" HorizontalOptions="Center" WidthRequest="400" />
+
+        <Label Text="Moneda dorita:" FontSize="25" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <Picker x:Name="ToCurrencyPicker" FontSize="20">
+        </Picker>
+         <Label Text="Valoarea primita:" FontSize="25" VerticalOptions="Center" HorizontalOptions="Center" />
+        <Entry x:Name="AmountIn" Keyboard="Numeric" FontSize="20" VerticalOptions="Center" HorizontalOptions="Center" />
+
+
+
+      
+
+        <Label x:Name="ResultLabel" FontSize="18" HorizontalOptions="Center" />
+    </StackLayout>
+
+</ContentPage>

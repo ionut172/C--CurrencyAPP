@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{08013B74-D02E-4A7A-B22C-FE26DA61D02A}|Default">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.17E9B5A1-367D-4711-81A5-F02A263D0FFF" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Convertor PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.17E9B5A1-367D-4711-81A5-F02A263D0FFF" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Convertor/MainPage.xaml.cs">
+    <Files>
+      <File FileName="Convertor/MainPage.xaml.cs" Line="14" Column="1" />
+      <File FileName="Convertor/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="Convertor/App.xaml" Line="16" Column="1" />
+      <File FileName="Convertor/MauiProgram.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Convertor" expanded="True">
+            <Node name="Convertor" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

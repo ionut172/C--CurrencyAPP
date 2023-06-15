@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="Convertor.app/Convertor">
+      <BCSymbolMapName>Convertor.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>Convertor.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/ionutgabriel/Projects/Convertor/Convertor/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>Convertor.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/ionutgabriel/Projects/Convertor/Convertor</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
